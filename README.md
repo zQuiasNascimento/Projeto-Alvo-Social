@@ -53,7 +53,7 @@ projeto-alvo/
 
 ## 🌐 Visualizar o Site
 
-Acesse: [https://zQuiasNascimento.github.io/projeto-alvo-Social/](https://zQuiasNascimento.github.io/projeto-alvo-Social/)
+Acesse: [https://zquiasnascimento.github.io/Projeto-Alvo-Social/](https://zquiasnascimento.github.io/Projeto-Alvo-Social/)
 
 ## 👨‍💻 Autor
 
