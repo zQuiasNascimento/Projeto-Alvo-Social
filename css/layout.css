@@ -1,0 +1,124 @@
+/* ========================================
+   LAYOUT PRINCIPAL
+======================================== */
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, var(--vermelho), var(--vermelho-escuro));
+    color: var(--branco);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header img {
+    border-radius: 50%;
+    border: 3px solid var(--branco);
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+main {
+    max-width: var(--largura-maxima);
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: var(--branco);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: var(--vermelho);
+    border-bottom: 3px solid var(--vermelho);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: var(--azul);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+section h4 {
+    color: var(--cinza-escuro);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* IMAGENS */
+figure {
+    text-align: center;
+    margin: 30px 0;
+}
+
+figure img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    font-style: italic;
+    color: var(--cinza);
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* LISTAS */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    background: var(--preto);
+    color: var(--branco);
+    padding: 40px 20px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer h2 {
+    color: var(--vermelho);
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: var(--laranja);
+}
+
+footer a:hover {
+    color: var(--branco);
+}
+
+footer small {
+    display: block;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cinza-escuro);
+    color: var(--cinza);
+}

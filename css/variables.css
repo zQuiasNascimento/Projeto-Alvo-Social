@@ -1,0 +1,31 @@
+/* ========================================
+   VARIÁVEIS CSS - SISTEMA DE DESIGN SIMPLES
+======================================== */
+
+:root {
+    /* CORES */
+    --vermelho: #e74c3c;
+    --vermelho-escuro: #c0392b;
+    --azul: #3498db;
+    --azul-escuro: #2980b9;
+    
+    --cinza-claro: #ecf0f1;
+    --cinza: #95a5a6;
+    --cinza-escuro: #34495e;
+    --preto: #2c3e50;
+    --branco: #ffffff;
+    
+    --verde: #27ae60;
+    --laranja: #f39c12;
+    
+    /* FONTES */
+    --fonte: Arial, Helvetica, sans-serif;
+    
+    /* ESPAÇAMENTOS */
+    --espaco-pequeno: 10px;
+    --espaco-medio: 20px;
+    --espaco-grande: 40px;
+    
+    /* LARGURAS */
+    --largura-maxima: 1200px;
+}

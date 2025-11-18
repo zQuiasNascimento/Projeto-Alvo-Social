@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Alvo - Transformando vidas através da Palavra de Deus e do Futebol">
+    <meta name="keywords" content="projeto social, futebol, voluntariado, cristianismo, São Paulo">
+    <title>Projeto Alvo - Transformando Vidas</title>
+    
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/Logo.png" alt="Logo Projeto Alvo" width="125" height="125">
+        <h1>Projeto Alvo</h1>
+        <p>Transformando vidas através da Palavra de Deus e do Futebol</p>
+        
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        
+        <nav id="menuNav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo ao Projeto Alvo</h2>
+            <figure>
+                <a href="imagens/Atividade.jpeg" target="_blank">
+                    <img src="imagens/Atividade.jpeg" width="450" height="450" alt="Crianças participando de atividades esportivas no Projeto Alvo">
+                </a>
+                <figcaption>Atividades esportivas com as crianças</figcaption>
+            </figure>
+            
+            <article>
+                <h3>Sobre o Projeto</h3>
+                <p>
+                    O Projeto Alvo é uma organização sem fins lucrativos dedicada a transformar vidas
+                    através da combinação da fé cristã e do futebol. Nosso objetivo é proporcionar um ambiente
+                    seguro e positivo para crianças e jovens, promovendo valores como respeito, disciplina e trabalho em equipe.
+                </p>
+
+                <p>
+                    Acreditamos que, através do esporte e dos princípios cristãos, 
+                    é possível formar bons atletas e cidadãos exemplares, 
+                    cultivando valores como respeito, disciplina, trabalho em equipe e fé.
+                </p>
+            </article>
+        </section>
+    
+        <section>
+            <h2>Nossos Pilares</h2>
+            
+            <article>
+                <h3>Missão</h3>
+                <p>
+                    Promover o desenvolvimento integral de crianças e adolescentes da 
+                    comunidade através do ensino da Palavra de Deus, prática esportiva 
+                    e apoio social, oferecendo um ambiente seguro e acolhedor.
+                </p>
+            </article>
+
+            <article>
+                <h3>Visão</h3>
+                <p>
+                    Ser referência em transformação social, formando cidadãos conscientes, 
+                    atletas disciplinados e pessoas de fé que impactem positivamente suas 
+                    comunidades.
+                </p>
+            </article>
+
+            <article>
+                <h3>Valores</h3>
+                <ul>
+                    <li>Fé em Deus</li>
+                    <li>Respeito ao próximo</li>
+                    <li>Disciplina e comprometimento</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Inclusão social</li>
+                    <li>Desenvolvimento integral</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Nossa História</h2>
+            <figure>
+                <a href="imagens/Equipe.jpeg" target="_blank">
+                    <img src="imagens/Equipe.jpeg" width="450" height="450" alt="Equipe de voluntários com as crianças do Projeto Alvo">
+                </a>
+                <figcaption>Nossa equipe de voluntários e crianças atendidas</figcaption>
+            </figure>
+            
+            <article>
+                <p>
+                    O Projeto Alvo nasceu em 2020, durante a pandemia, quando um grupo de 
+                    voluntários percebeu que muitas crianças da comunidade estavam sem 
+                    atividades e passando necessidades básicas. Começamos distribuindo 
+                    cestas básicas e, aos poucos, incluímos momentos de oração e leitura 
+                    bíblica.
+                </p>
+                
+                <p>
+                    Em 2021, conseguimos um espaço com quadra de futebol e expandimos o 
+                    projeto para incluir atividades esportivas. Hoje, atendemos mais de 
+                    50 crianças semanalmente, oferecendo café da manhã completo, estudo 
+                    bíblico adaptado para a idade, e treinos de futebol com instrutores 
+                    qualificados.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contato</h2>
+        
+        <address>
+            <p>
+                <strong>Endereço:</strong> Av. Ragueb Chohfi, 6700 - Cidade Tiradentes<br>
+                São Paulo - SP, 08371-440
+            </p>
+            
+            <p>
+                <strong>Telefone:</strong> <a href="tel:+5511915724450">(11) 91572-4450</a><br>
+                <strong>E-mail:</strong> <a href="mailto:contato@projetoalvo.org.br">contato@projetoalvo.org.br</a>
+            </p>
+            
+            <p>
+                <strong>Redes Sociais:</strong><br>
+                Instagram: <a href="https://instagram.com/projetoalvo" target="_blank">@projetoalvo</a><br>
+                Facebook: <a href="https://facebook.com/projetoalvo" target="_blank">/projetoalvo</a>
+            </p>
+        </address>
+        
+        <p><small>&copy; 2025 Projeto Alvo. Todos os direitos reservados.</small></p> 
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById('menuNav').classList.toggle('ativo');
+        }
+    </script>
+</body>
+</html>
